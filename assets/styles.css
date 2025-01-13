@@ -1,0 +1,127 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #37547C;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+main section {
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #37547C;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul.social-links {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 0;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 0;
+}
+
+#logo {
+    border-radius: 50%;
+}
+
+.title {
+    color: #21334F
+}
+
+iframe {
+    width: 70%;
+    height: 100%;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.portifolio {
+    width: 90%;
+    margin: auto;
+    display: block;
+    border: none;
+    box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.button {
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: 2px solid #37547C;
+    border-radius: 5px;
+    color: #37547C
+}
+
+.button:hover {
+    background-color: #37547C;
+    color: white;
+}
+
+#submit {
+    padding: 10px 20px;
+    background-color: #37547C;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #21334F;
+}
